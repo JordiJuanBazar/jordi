@@ -58,15 +58,16 @@ article:hover {
 }
 
 .bla:hover {
-    transform: translate(10px 0);
+    background: red;
+    
 }
 
 .bla:hover::after {
     content: "  SELECT";
-    f
+    color: blue;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and ( max-width: 768px) {
     body {
         background-color: #ff8888;
         transition: 1s;
@@ -83,6 +84,7 @@ article:hover {
 @media only screen and (max-width: 576px) {
     body {
         background-color: #92f592;
+        transition: 1s;
     }
     
     article {
@@ -92,6 +94,8 @@ article:hover {
     
 }
 }
+
+
 
 
 
